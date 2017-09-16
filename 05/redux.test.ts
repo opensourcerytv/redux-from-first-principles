@@ -2,7 +2,7 @@ import { createStore, reducer } from './redux';
 
 describe('05 Test Redux Store', () => {
     test('Test Store shape', () => {
-        const store = createStore(reducer);
+        const store = createStore(reducer, reducer(undefined, '@@INIT'));
         expect(typeof store.dispatch).toBe('function');
         expect(typeof store.getState).toBe('function');
     });
