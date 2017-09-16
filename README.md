@@ -5,6 +5,7 @@
 Clone it and then run:
 
 ```
+npm i
 npm test
 ```
 
