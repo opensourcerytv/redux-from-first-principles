@@ -1,0 +1,30 @@
+{
+  "name": "redux-from-first-principles",
+  "version": "1.0.0",
+  "description": "Redux from First Principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "The Legendary Josh Wulf™ - As Seen on the Internet® <josh@magikcraft.io>",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
+  "dependencies": {
+    "@types/jest": "^20.0.8",
+    "jest": "^21.1.0",
+    "ts-jest": "^21.0.1",
+    "typescript": "^2.5.2"
+  }
+}
